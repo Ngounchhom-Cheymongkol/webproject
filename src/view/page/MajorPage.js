@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
 const MajorPage = () => {
   const classes = useStyles();
   return (
-    <div>
+    <div style={{backgroundColor:"rgb(225,225,225)"}}>
       <Navbar />
       <Grid container>
         <Grid item sm={2} xs={2}>
@@ -22,11 +22,11 @@ const MajorPage = () => {
         </Grid>
         <Grid item sm={9} xs={10}>
           <Feed />
-          <Footer></Footer>
         </Grid>
         <Grid item sm={1} xs={10}>
           
         </Grid>
+        <Footer></Footer>
       </Grid>
     </div>
   );

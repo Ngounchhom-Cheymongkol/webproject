@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
 const MajorDetail = () => {
   const classes = useStyles();
   return (
-    <div>
+    <div style={{backgroundColor:"rgb(225,225,225)"}}>
       <Navbar />
       <Grid container>
         <Grid item sm={2} xs={2}>
