@@ -110,7 +110,7 @@ import {
       }
   }));
   const style = {
-    width: "100%",
+    width: "99%",
     height:"100vh",
     bgcolor: '#05192d',
     border: '2px solid #000',
@@ -140,7 +140,7 @@ import {
                 aria-describedby="modal-modal-description"
                 >
                 <Box sx={style}>
-                <Typography variant="h6" className={classes.logoSm}>
+                <Typography className={classes.logoSm}>
                 KhmerHope
                 <Cancel onClick={handleClose}></Cancel>
                 </Typography>

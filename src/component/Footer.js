@@ -71,7 +71,6 @@ const Footer=()=>{
             </Grid>
             <Grid container>
                 <Grid item xs={3} className={classes.FooterInfo1}>
-                    <h2>CCI</h2>
                     <p>
                     Based on your learnings from this tutorial, you are ready to make some simple GUI apps. You have to learn more methods for styling and interaction with the objects in a GUI
                     </p>
